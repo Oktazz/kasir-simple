@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="container">
+            <input type="text" id="barang" placeholder="nama barang">
+            <input type="number" id="jumlah" placeholder="jumlah barang">
+            <input type="number" id="harga" placeholder="harga barang">
+            <span id="info"></span>
+
+            <button id="input" onclick="tambahBarang()">input</button>
+            
+            <table id="daftar-barang" border="1" style="border-collapse: collapse;">
+
+        </table>
+
+        <p><b>total harga</b></p>
+        <input type="text" id="display-harga" disabled>
+            
+            
+        
+    </div>
+
+        <div id="edit-form">
+                <input type="text" id="barangEdit" placeholder="nama barang">
+                <input type="number" id="jumlahEdit" placeholder="jumlah barang">
+                <input type="number" id="hargaEdit" placeholder="harga barang">
+                <span id="info"></span>
+                <button id="input" onclick="edit()">edit</button>
+            </div>
+
+        </div>
+        
+    </div>    
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
